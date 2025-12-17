@@ -27,12 +27,12 @@ Unity에서 무료로 제공하고 있는 공장, 물류창고씬을 활용하�
 
 Client 로 활용할 GPT 서비스를 설치합니다.
 
+![service-list](./imgs/03-MCP/2025-12-14%2009%2029%2008.png)
+
 1. Google `Antigravity`
 2. `Cursor`
 3. `Claude Code`
 4. OpenAI `Codex`
-5. 등등
-6. [service-list](./imgs/03-MCP/2025-12-14%2009%2029%2008.png)
 
 사용 가능합니다. 위 서비스 모두 잘 동작하고 있음을 확인했으며, 결국은 `Model`, 유/무료 의 차이에 따라 성능이 달라지게 됩니다. 모두 무료서비스가 있으니, 무료로 먼저 진행하셔도 무방합니다.
 
@@ -60,9 +60,9 @@ Client 로 활용할 GPT 서비스를 설치합니다.
       1. `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
       2. 새 터미널 창 `WSL` 열고 `nvm install 22`
       3. 그리고 `codex`
-      4. [wsl-install1](./imgs/03-MCP/2025-12-14%2009%2046%2054.png)
-      5. [wsl-install2](./imgs/03-MCP/2025-12-14%2009%2047%2047.png)
-      6. [wsl-install2](./imgs/03-MCP/2025-12-14%2009%2047%2059.png)
+      4. ![wsl-install1](./imgs/03-MCP/2025-12-14%2009%2046%2054.png)
+      5. ![wsl-install2](./imgs/03-MCP/2025-12-14%2009%2047%2047.png)
+      6. ![wsl-install3](./imgs/03-MCP/2025-12-14%2009%2047%2059.png)
 2. Mac 에선 https://developers.openai.com/codex/cli
    1. `brew install codex`
    2. 그리고 `codex`
@@ -89,7 +89,7 @@ Client 로 활용할 GPT 서비스를 설치합니다.
    1. Unity Hub에서
       1. Unity Hub 에서 Projects 창, New Project 를 누르고, 지금 다운로드 받은 Editor version을 확인
       2. [중요] 하단에 Templates 목록 중, `High Definition 3D` 항목을 선택 
-      3. [start-newproject](./imgs/02-start/2025-12-14%2008%2044%2032.png)
+      3. ![start-newproject](./imgs/02-start/2025-12-14%2008%2044%2032.png)
       4. 오른쪽에 Project 이름 설정, 위치 저장 후 Create project
    2. Unity Editor에서
       1. Unity Warehouse 샘플 다운로드
@@ -105,11 +105,11 @@ Client 로 활용할 GPT 서비스를 설치합니다.
                1. https://assetstore.unity.com/packages/3d/environments/industrial/unity-warehouse-276394
                2. Asset Store 에선 개발자, 디자이너, 모델러 가 만들고 제공하고 있는 Asset 들을 확인가능 (유/무료)
                3. `Add to My Assets` 선택
-               4. [start-download](./imgs/02-start/2025-12-14%2009%2004%2010.png)
+               4. ![start-download](./imgs/02-start/2025-12-14%2009%2004%2010.png)
             2. Unity Editor에서 `Package Manager` - `Unity Warehouse` 가 있는지 확인 (하단 새로고침)
                1. `Download` 선택, 완료 후 `Import 1.0 to project`
                2. 새 창에서 `import`
-               3. [start-import](./imgs/02-start/2025-12-14%2009%2012%2030.png)
+               3. ![start-import](./imgs/02-start/2025-12-14%2009%2012%2030.png)
 
 ## MCP for Unity 다운로드 및 설정
 
@@ -118,7 +118,7 @@ Client 로 활용할 GPT 서비스를 설치합니다.
       1. 다시 `Package Manager` 탭 상단에 보이는 `+` 선택 후 `Add package from git URL...`
       2. `https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity` install
       3. 설치가 완료되었다면 상단에 `Window`에서 `MCP for Unity` 항목을 확인할 수 있음
-      4. [mcp-window-tap](./imgs/03-MCP/2025-12-14%2009%2025%2047.png)
+      4. ![mcp-window-tap](./imgs/03-MCP/2025-12-14%2009%2025%2047.png)
    2. [중요] 설정
       1. Settings
          1. Show Debug Logs 옵션 활성화
@@ -137,7 +137,7 @@ Client 로 활용할 GPT 서비스를 설치합니다.
 1. Unity에서
    1. Unity 상단에 `Window`탭에서 `MCP for Unity` 항목을 열어
       1. Session에 초록불 활성화 필수
-         1. [setting-green](./imgs/03-MCP/2025-12-14%2010%2026%2003.png)
+         1. ![setting-green](./imgs/03-MCP/2025-12-14%2010%2026%2003.png)
       2. Client Configuration 초록불 필수
 2. Cursor에서 
    1. Cursor 상단 톱니바퀴모양 클릭, `Cursor Setting`
